@@ -9,47 +9,16 @@
 #063d1e
 */
 
-/* ------------------ Fontes Google Fonts ------------------- */
 
-.boldonse-regular {
-    font-family: "Boldonse", system-ui;
+
+
+p#GoogleFonts1 {
+    font-family: "Alumni Sans Pinstripe", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
 
-  .codystar-regular {
-    font-family: "Codystar", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
   
-  .pacifico-regular {
-    font-family: "Pacifico", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  
-/* ------------------ Fontes Google Fonts ------------------- */
-
-p.GoogleFonts1 {
-
-    font-family: boldonse-regular;
-
-}
-
-.GoogleFonts2 {
-    font-family: codystar-regular;
-    
-}
-
-.GoogleFonts3 {
-    font-family: pacifico-regular;
-    
-}
-
-
-
 :root {
 
     --cor0: #c5ebd6;
@@ -105,6 +74,7 @@ main{
     box-shadow: 0px 0px 10px black;
     border-radius: 10px;
     margin: auto;
+    margin-top: 10px;
     margin-bottom: 30px;    
     line-height: 2em;
     font-size: 1em;
