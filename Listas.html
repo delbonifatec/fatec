@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens/Fatec.png" type="image/x-icon">
+    <link rel="stylesheet" href="Estilo/estilo.css">
+
+   
+</head>
+<body>
+    
+        <title>Listas</title>
+
+        <header>
+            <h1>
+            Desenvolvimento Web
+            </h1>
+            <p>
+                <h1> Aprenda a programar em HTML e CSS</h2>
+            </p>
+            
+        </header>
+        
+    
+        <main>    
+            <p>
+                <h2>Listas</h2> 
+            </p>
+                <h3>Listas ordenadas</h3>
+
+                <p>Na lista ordenada, como o nome já diz, a ordem dos itens é importante. <br>Para criar uma lista ordenada utilizamos a tag <strong>&lt;ol&gt;&lt;/ol&gt;</strong> e para as linhas da listas utilizamos a tag <strong>&lt;li&gt;</strong> (Não é necessário fechar a tag).</p>
+                
+                <p>Na lista ordenada ele numera os itens, e caso eu precise inserir um item novo no meio da lista, ele atualiza todos os numeros de todas as linhas.</p>
+            
+                <strong>Exemplo:</strong></p>
+                Quando eu acordo eu faço:
+        <ol>
+            <li> Tomar café</li>
+            <li>Escovar os dentes</li>
+            <li> Tomar banho</li>
+            <li>Me trocar</li>
+            <li>Ir pra Fatec</li>
+        </ol>
+            
+                É possível alterar os índices por outros caracteres utilizando a tag <strong>&lt;ol type="opção desejada"&gt;</strong>. Por padrão ele escolhe a opção "1" ou numeração. (Exemplo acima).
+                <p><strong>Exemplos:</strong></p>
+                Quando eu acordo eu faço:
+                <ol type="A">
+            <li> Tomar café</li>
+            <li>Escovar os dentes</li>
+            <li> Tomar banho</li>
+            <li>Me trocar</li>
+            <li>Ir pra Fatec</li>
+                </ol>
+            
+                Quando eu acordo eu faço:
+                <ol type="a">
+            <li> Tomar café</li>
+            <li>Escovar os dentes</li>
+            <li> Tomar banho</li>
+            <li>Me trocar</li>
+            <li>Ir pra Fatec</li>
+                </ol>
+            
+                Quando eu acordo eu faço:
+                <ol type="i">
+            <li> Tomar café</li>
+            <li>Escovar os dentes</li>
+            <li> Tomar banho</li>
+            <li>Me trocar</li>
+            <li>Ir pra Fatec</li>
+                </ol>
+            
+                Quando eu acordo eu faço:
+                <ol type="I">
+            <li> Tomar café</li>
+            <li>Escovar os dentes</li>
+            <li> Tomar banho</li>
+            <li>Me trocar</li>
+            <li>Ir pra Fatec</li>
+                </ol>    
+            
+                <h3>Listas não ordenadas</h3>
+                Lista onde, como o nome diz, a ordem não é importante. <br>
+                Para criar uma lista não ordenada, utiizamos a tag <strong>&lt;ul&gt; &lt;/ul&gt;</strong>
+                <p><strong>Exemplo:</strong></p>
+                Lista de compras:
+                <ul>
+                <li>Pão</li>
+                <li>Manteiga</li>
+                <li>Leite</li>
+                <li>Arroz</li>
+                <li>Feijão</li>
+                </ul>
+                <p>É possível alterar o tipo de marcador, mas por padrão ele vem com a bolinha (exemplo acima). </p>
+                <p><strong>Exemplos:</strong></p>
+            
+                <ul type="circle">
+            <li>Pão</li>
+            <li>Manteiga</li>
+            <li>Leite</li>
+            <li>Arroz</li>
+            <li>Feijão</li>
+                </ul>
+                <ul type="square">
+            <li>Pão</li>
+            <li>Manteiga</li>
+            <li>Leite</li>
+            <li>Arroz</li>
+            <li>Feijão</li>
+                </ul>
+            
+                <h3>Juntando listas</h3>
+                Juntando <strong>&lt;ol&gt;</strong> com <strong>&lt;ol&gt</strong>;.
+            
+                Minhas linguagens favoritas
+            
+                <ol>
+            <li>Antigas
+                <ol type="a">
+                    <li>Clipper</li>
+                    <li>Visual Basic</li>
+                    <li>Fortran</li>
+                    <li>Delphi</li>
+                </ol>
+            <li>Novas
+                <ol type="a" start="5">
+                    <li>PHP</li>
+                    <li>Python</li>
+                    <li>Javascript</li>
+                    <li>Kotlin</li>
+                </ol>        
+                </ol>
+                Juntando <strong>&lt;ol&gt;</strong> com <strong>&lt;ul&gt</strong>;.
+            <p>Meus jogos favoritos</p>
+                <ol>
+            <li>NES</li>
+                <ul type="square">
+                    <li>Mário Bros</li>
+                    <li>Ninja Gaiden</li>
+                </ul type="square">
+            <li>SNES</li>
+                <ul type="square">
+                    <li>Super Mario</li>
+                    <li>Donkey Kong</li>
+                </ul>
+            <li>Playstation</li>
+                <ul type="square">
+                    <li>Final Fantasy</li>
+                    <li>Castlevania</li>
+                </ul>
+                </ol>
+        </main>
+
+   </body>
+   <footer> 
+    <p>Site desenvolvido por William Delboni</p>
+</footer>
+</html>

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang = "PT-BR">
+    <head> 
+        <meta charset = UTF8>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="Imagens/Fatec.png" type="image/x-icon">
+        <link rel="stylesheet" href="Estilo/estilo.css">
+        
+        
+    <title> Formatação de texto </title>
+
+    </head>
+    <body>
+        <header>
+            <h1>
+            Desenvolvimento Web
+            </h1>
+            <p>
+                <h1> Aprenda a programar em HTML e CSS</h2>
+            </p>
+            
+        </header>
+        <main>
+            <p>
+                <p>
+                    <h2>Tags para formatação de texto</h2>
+                </p>
+            </p>
+        
+        
+            
+                <h3> Negrito ou strong</h3>
+                Para colocar em <strong> negrito </strong>utilizamos a tag não semântica <strong>&lt;b&gt; &lt;/b&gt; </strong> ou a tag semântica <strong> &lt;strong&gt; &lt;/strong&gt;</strong>
+                <h3>Itálico ou emphasis</h3>
+                Para colocar em <em>itálico</em> utilizamos a tag não semântica <strong>&lt;i&gt; &lt;/i &gt;</strong> ou a tag semântica <strong>&lt;em&gt; &lt;/em &gt;</strong> (emphasis)
+                <h3> Texto Marca texto</h3>
+                Para colocar <mark>marca texto</mark>  utilizamos a tag <strong>&lt;mark&gt; &lt;/mark &gt;</strong><br>
+                Para <mark style="background-color: chartreuse;">mudar a cor</mark>, temos que utilizar CSS <strong>&lt;mark style="background-color: cor desejada"&gt; &lt;/mark &gt;</strong>. Caso utilize assim no corpo do texto, se criar um style, ele não vai mudar<br>
+                <h3> Criação de estilo para que possa utilizar várias vezes</h3>
+                Ao invés de colocar as tags acima no texto, podemos criar um estilo no head para que possamos reutilizar.<br>
+                <strong>&lt;style mark {background-color: cor desejada}&gt;</strong> <strong>&lt;/style&gt;</strong>. Ele vai alterar todos os marcadores que não tenha sido inserida cor.
+                <h3> Texto excluído (taxado) e texto inserido (sublinhado)</h3>
+                Para taxar um texto, utilizamos a tag <strong>&lt;del&gt; &lt;/del&gt;</strong><br>
+                Para sublinhar um texto, utilizamos a tag <strong>&lt;ins&gt; &lt;/ins&gt;</strong>. Há também a tag não semântica  <strong>&lt;u&gt; &lt;/u&gt;</strong><br>
+                <h3> Subscrito e sobrescrito</h3>
+                Para sobrescrever um texto utilizamos a tag <strong>&lt;sub&gt; &lt;/sub&gt;</strong>. <strong>Exemplo</strong> 2<sob>2</sob>=4. <br>
+                Para subscrever um texto, utilizamos a tag <strong>&lt;sub&gt; &lt;/sub&gt;</strong>. <strong>Exemplo</strong> H<sub>2</sub>O.
+                <h3> Fonte monoespaçada (mesmo espaço utiizado para cada fonte)</h2>
+                
+                <Strong>Exemplo:</Strong> No comando document.getElementById('teste') algumas letras ocupam mais espaço que as demais, por exemplo o l ocupa menos espaço que o g, tornando assim difícil a leitura de um código<br>
+                <p>Para resolver este problema, utilizamos a tag <strong>&lt;code&gt; &lt;/code&gt;</strong>. <strong> Exemplo:</strong> <code>document.getElementById('teste')</code></p>
+                Este comando é curto e está em apenas 1 linha. Quando formos fazer o mesmo com códigos ocupando mais de uma linha, utiizamos a tag <strong>&lt;pre&gt;</strong> <strong>&lt;/pre&gt;</strong>, assim ele considera todos os espaços e quebra de linha utilizada no código na página do navegador.
+                <p><strong>Exemplo sem &lt;pre&gt; &lt;/pre&gt;</strong></p>
+                    <p>
+                     <code>
+                         num = int(input('Digite um número'))
+                            if num % 2 == 0:
+                                print(f'O número é par {num} é PAR')
+                            else:
+                                print(f'O número {num} é IMPAR')
+                     </code>
+                    </p>
+                    <p><strong>Exemplo com &lt;pre&gt; &lt;/pre&gt;</strong></p>
+                    <p>
+                     <pre>
+                         <code>
+                num = int(input('Digite um número'))
+                if num % 2 == 0:
+                    print(f'O número é par {num} é PAR')
+                else:
+                    print(f'O número {num} é IMPAR')
+                         </code>
+                     </pre>
+                    </p>
+            </main>
+    </body>
+    <footer> 
+        <p>Site desenvolvido por William Delboni</p>
+    </footer>
+</html>
