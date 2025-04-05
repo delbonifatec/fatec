@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/*
+/* Paleta de cores
 #c5ebd6
 #83e1ad
 #3ddc84
@@ -8,6 +8,47 @@
 #a15c37
 #063d1e
 */
+
+/* ------------------ Fontes Google Fonts ------------------- */
+
+.boldonse-regular {
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .codystar-regular {
+    font-family: "Codystar", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+/* ------------------ Fontes Google Fonts ------------------- */
+
+p.GoogleFonts1 {
+
+    font-family: boldonse-regular;
+
+}
+
+.GoogleFonts2 {
+    font-family: codystar-regular;
+    
+}
+
+.GoogleFonts3 {
+    font-family: pacifico-regular;
+    
+}
+
+
 
 :root {
 
@@ -120,3 +161,4 @@ margin-left: 25px;
 ul{
     margin-left: 25px;
 }
+
