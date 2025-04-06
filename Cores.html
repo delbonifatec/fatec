@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang = "PT-BR">
+    <head> 
+        <meta charset = UTF8>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="Imagens/Fatec.png" type="image/x-icon">
+        <link rel="stylesheet" href="Estilo/estilo.css">
+
+    <title> Cores </title>
+
+    <header>
+        <h1>
+        Desenvolvimento Web
+        </h1>
+        <p>
+            <h1> Aprenda a programar em HTML e CSS</h2>
+        </p>
+        
+    </header>
+
+    </head>
+    
+        
+        <Style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: url('Imagens/Background.jpg') no-repeat center center fixed;
+        background-size: cover;
+        height: 100vh;
+     }
+
+    div.cores{
+        border: 1px solid black;
+        display: inline-block;
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+        background-color:lightgray        
+    }
+
+    div#cor1{
+        background-color: darkblue;
+        opacity: 0.5;
+        
+
+    }
+
+    div#cor2{
+        background-image: linear-gradient(to bottom, blue, yellow);
+        
+    }
+
+    div#cor3{
+    background: linear-gradient(
+    to right, 
+    rgb(255, 0, 0),    /* Red */
+    rgb(255, 165, 0),  /* Orange */
+    rgb(255, 255, 0),  /* Yellow */
+    rgb(0, 128, 0),    /* Green */
+    rgb(0, 0, 255),    /* Blue */
+    rgb(75, 0, 130),   /* Indigo */
+    rgb(238, 130, 238) /* Violet */
+  );}
+        
+        
+
+    div#cor4{
+        background-image: linear-gradient(to top, Red, rgb(255, 165, 0), #0000FF );
+        
+        
+    }
+
+    div#cor5{
+        background: url(Imagens/RAP.jpg);
+        border: 1px solid black;
+        display: inline-block;
+        width: 500px;
+        height: 500px;
+        border-radius: 10px;
+        opacity: 0.8;        
+    }
+
+    
+
+    </Style>
+    <body> 
+    
+        
+        
+            <main>
+                <h2>Brincando com as cores</h2>
+                    <div class="cores" id="cor1"></div>
+                    <div class="cores" id="cor2"></div>
+                    <div class="cores" id="cor3"></div>
+                    <div class="cores" id="cor4"></div>
+                    <p id='img'><div id="cor5"></div></p>           
+                                
+        </main>
+    </body>
+    <footer> 
+        <p>Site desenvolvido por William Delboni</p>
+    </footer>
+</html>

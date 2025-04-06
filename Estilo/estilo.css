@@ -9,14 +9,73 @@
 #063d1e
 */
 
-
-
-
 p#GoogleFonts1 {
-    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-family: "Rubik Dirt", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 200%;
+  text-indent: 0px;
+  }
+
+  p#GoogleFonts2 {
+    font-family: "Mystery Quest", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 200%;
+  text-indent: 0px;
+  }
+
+  p#GoogleFonts3 {
+    font-family: "Borel", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 200%;
+  text-indent: 0px;
+  }
+
+  p#FonteExterna1 {
+    font-family: "Lacquer", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 200%;
+  text-indent: 0px;
+  }
+
+  p#FonteExterna2 {
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size:200%;
+    text-indent: 0px;
+  }
+
+  p#FonteExterna3 {
+    font-family: "Music Logos", cursive;
     font-weight: 400;
     font-style: normal;
+    font-size: 400%;
+    letter-spacing: 10px;
+    line-height: 50px;
+    text-indent: 0px;
   }
+
+
+  a.LinkFonte{
+    text-decoration: none;
+        color: var(--cor5);
+        font-size:medium;
+        font-weight: 700;
+        padding-right: 15px;
+        margin-right: 15px;
+
+  }
+
+  a.LinkFonte:hover    {    
+    text-decoration: underline;
+    color: white;
+    background-color: var(--cor2);
+    
+}
 
   
 :root {
@@ -43,10 +102,18 @@ header{
 }
 
 body{
+    margin: 0;
+    padding: 0;
+    background: url('Imagens/Background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    
     background-color: #c5ebd6;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 15px;   
 }
+
+
 
 h1{
    color: white;
