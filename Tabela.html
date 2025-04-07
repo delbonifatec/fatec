@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens/Fatec.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="Estilo/estilo.css">
+
+    <title>Tabela</title>
+</head>
+<body>
+
+    <style>        
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('Imagens/Background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            height: 100vh;            
+        }
+
+        table{            
+            border-collapse: collapse;
+            border: 3px solid black;           
+        }
+
+        td{
+            border:1px solid black;
+            padding: 5px;
+            text-align: center;            
+        }
+
+        th{
+            border: 1px solid white;
+            padding: 5px; 
+            width: 70px;  
+
+        }
+
+        tbody tr:nth-child(2n){
+            background-color: lightgray;
+            
+        }
+
+        thead{            
+            
+            background-color: black;
+            color: white;
+            
+        }
+        
+        tfoot {
+            background-color: black;
+            color: white;
+        }
+        
+        
+    </style>
+
+    <header>
+        <h1>
+        Desenvolvimento Web
+        </h1>
+        <p>
+            <h1> Aprenda a programar em HTML e CSS</h2>
+        </p>
+        
+    </header>
+    
+    <main>
+        <p>
+            <h2>Tabelas</h2>
+        </p>
+        <h3>Fazendo Tabela</h3>
+        
+    <table>
+        
+        <thead>
+            <tr>
+                <th colspan="4">Planilha de notas</th>
+            </tr>
+        
+       
+            
+            <tr>
+                <th>Nome</th>
+                <th>Matemática</th>
+                <th>Português</th>
+                <th>Ciências</th>
+        
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align: left;"><strong>Ana</strong></td>
+                <td>7</td>
+                <td>9</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td style="text-align: left;"><strong>Bruno</strong></td>
+                <td>5</td>
+                <td>7</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td style="text-align: left;"><strong>Carolina</strong></td>
+                <td>8</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td style="text-align: left;"><strong>Sandra</strong></td>
+                <td>7</td>
+                <td>5</td>
+                <td>9</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="4"> <a href="https://github.com/delbonifatec/fatec"><i class="bi bi-globe-americas"></i> http://www.website.com </i></a></td> 
+            </tr>
+        </tfoot>
+
+    </table>
+
+    </main>
+
+</body>
+<footer> 
+    <p>Site desenvolvido por William Delboni</p>
+</footer>
+</html>
